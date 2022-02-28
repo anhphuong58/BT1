@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <title></title>
+    <style>
+        input {
+            margin-left: 50px;
+            background-color:white;
+        }
+
+        textarea {
+            margin-left: 40px;
+            margin-top: 20px;
+            background-color:white;
+        }
+        form {
+            margin-left:350px;
+        }
+        #bt1{
+            margin-left: 200px;
+        }
+        h1 {
+            text-align: center;
+            margin-left: 20px;
+            color:red;
+        }
+        button{
+            background-color:#808080;
+        }
+        * {
+            background-color: #78c8ba;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>VÍ DỤ VỀ TẠO FORM</h1>
+    <form action="/" name="submitform" method="post">
+        Text box:
+    <input name="tb" value="" required />
+    <br />
+
+    Text Area:
+    <textarea name="ta" required>
+        </textarea>
+    <br />
+
+    File box :
+    <input name="fb" value="" required />
+    <button name="br">Browse...</button>
+    <br />
+        <br />
+    <input type="radio" name="rd" value="Radio button" />  Radio button
+        <br />
+    <input type="checkbox" name="cb" value="Check box" />  Check box
+        <br />
+        <br />
+    
+        <button id="bt1">Submit</button>
+        <button>Reset</button>
+    
+    </form>
+    
+
+</body>
+</html>
